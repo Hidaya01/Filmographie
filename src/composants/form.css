@@ -1,0 +1,79 @@
+
+.add-film-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(4, 4, 59); 
+    color: whitesmoke; 
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px rgba(215, 132, 132, 0.3); 
+  }
+  
+  .add-film-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+    color: whitesmoke; 
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: whitesmoke; 
+  }
+  
+ input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgb(26, 26, 77); 
+    color: whitesmoke;
+    box-sizing: border-box;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .error {
+    color: #ff0000;
+    font-size: 0.875rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  button.submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    color: white;
+    background-color: #aad1fa93; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button.submit-btn:hover {
+    background-color: #0056b3; 
+  }
+  
+  body {
+    background-color: rgb(4, 4, 59); 
+    color: whitesmoke;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(4, 4, 59);
+    color: whitesmoke;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.movie-image {
+    width: 100%;
+    height: 50%;
+    border-radius: 30PX;
+    object-fit: cover; 
+  }
+  
+  .moviechart {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap; 
+  }
+  
+  .movie-item {
+    cursor: pointer; 
+    width: 150px; 
+    text-align: center; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 10px;
+    transition: transform 0.2s ease; 
+  }
+  
+  .movie-item:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+  
